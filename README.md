@@ -1,4 +1,4 @@
-# 🔮 Customer Churn Prediction Engine
+# Customer Churn Prediction Engine
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.37.1-FF4B4B.svg)](https://streamlit.io/)
@@ -10,13 +10,13 @@ An end-to-end Machine Learning web application designed to predict customer chur
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Customer churn is one of the most critical metrics for subscription-based businesses. Acquiring new customers can cost up to 5x more than retaining existing ones. This project delivers a complete machine learning lifecycle—from exploratory data analysis and rigorous feature engineering to interactive deployment via a portfolio-quality Streamlit web application.
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Telecommunication companies face intense competition and customer attrition. The objective is to build a predictive machine learning model and intuitive web application that allows business analysts, customer support representatives, and retention teams to:
 1. Identify customers with high risk of canceling their subscriptions (`Churn = 1`).
@@ -25,7 +25,7 @@ Telecommunication companies face intense competition and customer attrition. The
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The project utilizes the **Telco Customer Churn** dataset containing **7,032 customer records** (after cleaning missing total charges) and 21 original feature columns:
 
@@ -40,7 +40,7 @@ The project utilizes the **Telco Customer Churn** dataset containing **7,032 cus
 
 ---
 
-## ⚙️ Machine Learning Pipeline
+## Machine Learning Pipeline
 
 ```
 [ Raw Dataset: Telco_Customer_Churn.csv ]
@@ -76,7 +76,7 @@ The project utilizes the **Telco Customer Churn** dataset containing **7,032 cus
 
 ---
 
-## 🏆 Model Comparison & Evaluation
+## Model Comparison & Evaluation
 
 Six machine learning classification algorithms were trained and evaluated on the test set:
 
@@ -91,7 +91,7 @@ Six machine learning classification algorithms were trained and evaluated on the
 
 ---
 
-## 💡 Why Logistic Regression was Selected
+## Why Logistic Regression was Selected
 
 1. **Top Performance**: Achieved the highest overall accuracy (**78.82%**) and the highest F1-score (**0.56**) for the minority churn class.
 2. **Probability Calibration**: Logistic Regression outputs well-calibrated class probabilities via sigmoid activation, enabling accurate confidence scoring (`predict_proba()`).
